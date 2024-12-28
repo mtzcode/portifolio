@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+}
+
+/*INICIO HEADER*/
+
+.nav {
+  background-color: #181818;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 28px;
+}
+
+.nav-list a {
+  color: #ddd;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-list a:hover {
+  color: #ff2964;
+}
+
+/*FIM HEADER*/
+
+
