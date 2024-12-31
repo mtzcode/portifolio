@@ -8,14 +8,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <title>MTZCODE - Portifólio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <title>MTZCODE - Portfólio</title>
 </head>
 
 <body>
   <header>
     <nav class="nav">
       <ul class="nav-list">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#hero">Home</a></li>
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#projetos">Projetos</a></li>
       </ul>
@@ -23,11 +24,50 @@
   </header>
 
   <main>
+    <!-- HERO SECTION -->
     <section id="hero">
+      <div class="item-hero" data-aos="fade-up">
+        <h1>Olá!<br>Seja bem-vindo</h1>
+        <p><span class="destaque">Transforme</span> suas ideias em <span class="destaque">&lt;</span>códigos<span class="destaque">&gt;</span></p>
+        <a href="#projetos"><button><span class="btn-label">Veja meus projetos</span></button></a>
+      </div>
+    </section>
 
+    <!-- SOBRE SECTION -->
+    <section id="sobre">
+      <div class="item-sobre" data-aos="fade-right">
+        <h2>Sobre</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint et facere, officiis excepturi maxime eveniet assumenda ut?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic, nemo temporibus minus id quam explicabo reiciendis laborum.</p>
+      </div>
+      <img src="./assets/image/homem-pc.jpg" alt="Homem digitando no computador" data-aos="fade-left">
+    </section>
+
+    <!-- PROJETOS SECTION -->
+    <section id="projetos" data-aos="fade-up">
+      <div class="item-projeto">
+        <h2>Meus projetos</h2>
+        <p>Visite meus projetos:</p>
+        <div class="item2-grade-imagem">
+          <img src="https://via.placeholder.com/300x200" alt="Projeto 1">
+          <img src="https://via.placeholder.com/300x200" alt="Projeto 2">
+          <img src="https://via.placeholder.com/300x200" alt="Projeto 3">
+        </div>
+        <a href="/"><button class="btn-pjr">Veja mais</button></a>
+      </div>
     </section>
   </main>
 
+  <footer>
+    <h3><a href="https://instagram.com/mtzcode" target="_blank">MTZCODE - WEB DESIGN</a></h3>
+    <p>Todos os direitos reservados</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
